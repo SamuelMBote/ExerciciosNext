@@ -1,5 +1,5 @@
 export default interface ProdutoEntity {
-  id: number;
+  id?: number;
   nome: string;
   preco: number;
   descricao: string;
